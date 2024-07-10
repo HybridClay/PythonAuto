@@ -8,7 +8,7 @@ import webbrowser
 #This works too
 #chrome_path = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe --profile-directory=Profile 1"
 
-chrome_path = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --profile-directory='Profile 1'"
+chrome_path = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe --profile-directory='Profile 1'"
 
 # First registers the new browser
 webbrowser.register('chrome', None,
